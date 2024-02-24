@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://bootswatch.com/5/journal/bootstrap.min.css">
+        <script src="https://kit.fontawesome.com/49a4da46dc.js" crossorigin="anonymous"></script>
+        <title>Book List App</title>
+
+    </head>
+    <body>
+
+<!--adding the container class with .container and mt-4 [Margin top 4 pixels]-->
+<div class="container mt-5">
+<h1 class="display-4"><i class="fas fa-book-open text-primary mt-5 mb-5"></i>My<span class="text-primary">Book</span>List</h1>
+<form id="book-form">
+
+    <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" id="title" class="form-control mb-3">
+    </div>
+
+    <div class="form-group">
+        <label for="author">Author</label>
+        <input type="text" id="author" class="form-control mb-3">
+    </div>
+
+    <div class="form-group">
+        <label for="isbn">ISBN#</label>
+        <input type="text" id="isbn" class="form-control mb-3">
+    </div>
+
+    <input type="submit" value="Add Book" class="btn btn-primary btn-block mt-3">
+</form>
+
+<table class="table table-striped mt-5">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="book-list"></tbody>
+</table>
+
+</div>    
+
+<script src="app.js"></script>
+    </body>
+</html>
