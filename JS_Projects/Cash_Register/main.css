@@ -1,0 +1,102 @@
+:root{
+    --primary-color:#007FFF;
+   
+}
+body{
+    font-family: 
+    'Montserrat',
+     sans-serif;
+     
+}
+.container{
+ 
+    max-width:fit-content;
+    margin: auto;
+    font-family: 
+    'Montserrat',
+     sans-serif;
+}
+.heading{
+    text-align:center;
+    color: var(--primary-color);
+}
+
+.description{
+    font-size: 1.5rem;
+    font-family:""
+}
+
+
+label{
+    color:black;
+    font-weight: bolder;
+    /* place-items:center; */
+    display: flex; font-size: 1rem; justify-content: center; align-items: center; height: 100%
+}
+
+#bill-amount{
+    border-radius: 0.5rem;
+    padding:0.5rem 2rem 0.5rem 2rem;
+    border-color: var(--primary-color);
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+  
+
+  
+}
+#cash-given{
+    border-radius: 0.5rem;
+    padding:0.5rem 2rem 0.5rem 2rem;
+    border-color: var(--primary-color);
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  
+}
+#check-button{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    border-color: var(--primary-color);
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0px auto
+}
+
+th,td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+        /* padding: 15px; */
+        color:black;
+        border: 1.3px solid var(--primary-color);
+        /* width: 15px;
+        height: 15px; */
+        
+    }
+   
+thead th{
+    width:10%;
+}
+
+@media(max-width:768px){
+    html{
+        font-size:45%;
+    }
+}
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
